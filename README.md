@@ -7,7 +7,8 @@ código que he escrito para proyectos que he desarrollado en los últimos años.
 Carpeta 1. BASES DE DATOS - SQL. 
 
   * Contiene la implementacíon (scripts) de dos dases de datos con sus respectivas operaciones de creación de tablas manteniendo los 
-  ciclos referenciales de los esquemas lógicos y conceptuales,  inserción, actualización, modificación y eliminación de datos (LDD, LMD).
+  ciclos referenciales de los esquemas lógicos y conceptuales,  inserción, consultas, actualización, modificación y eliminación de datos
+  LDD, LMD).
   
     -Base de datos de una AGENCIA FOTOGRÁFICA.  
     -Base de datos de un GRUPO DE CONCESIONARIOS.
