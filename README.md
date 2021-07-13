@@ -19,7 +19,7 @@ Carpeta 2. DESARROLLADOR DE APLICACIONES.
   arquitectura de 3 capas (1) _Interfaz gráfica de usuario_, (2) _controlador y clases dominio Java + Repositorios_, y finalmente un 
   (3) _servicio de persistencia_. La aplicación mantiene conexión con una base de datos h2. 
     
-     -TIENDA. Tienda registra ventas para cada una de las cuales se establece el número de unidades vendidas y el producto. 
+     -TIENDA. Tienda registra las ventas para cada una de las cuales se establece el número de unidades vendidas y el producto. 
      Cada producto es definido por su nombre, descripción y precio. Una venta también registra la fecha y el cliente que ha
      realizado la compra. Para cada cliente se almacena su nombre y dni, se mantiene una lista con las compras que ha realizado.
      La aplicación de la tienda permite registrar y listar productos y clientes, introducir ventas formadas por una o más líneas 
