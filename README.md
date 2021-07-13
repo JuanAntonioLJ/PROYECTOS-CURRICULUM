@@ -6,7 +6,7 @@ código que he escrito para proyectos de programación que he desarrollado en lo
 
 Carpeta 1. APLICACIÓN DE ESCRITORIO - TIENDA. 
 
-  * Esta carpeta continene una implementación de un programa de escritorio escrito en JAVA destinado para una TIENDA  mediante una 
+  * Esta carpeta continene la implementación de un programa de escritorio escrito en JAVA destinado para una TIENDA  mediante una 
   arquitectura de 3 capas: (1) _Interfaz gráfica de usuario_ ; (2) _controlador , clases dominio Java + Repositorios_ ; (3) y finalmente un 
    _servicio de persistencia_. La aplicación mantiene conexión con una base de datos h2. 
     
