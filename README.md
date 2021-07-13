@@ -2,7 +2,7 @@
 Para más información pónganse en contacto enviando un correo electrónico a la siguiente dirección: juanantonio.lopezj@outlook.es
 
 En este repostiorio podrán encontrar tres carpetas diferentes e independientes entre sí, las cuales contienen parte del 
-código que he escrito para proyectos de programación que he desarrollado en los últimos años. 
+código que he escrito para proyectos que he desarrollado en los últimos años. 
 
 Carpeta 1. **APLICACIÓN DE ESCRITORIO - TIENDA**. 
 
