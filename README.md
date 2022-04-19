@@ -16,7 +16,7 @@ Carpeta 1. **BASES DE DATOS - SQL**.
 Carpeta 2. **AUTENTICACIÓN (SIGN IN/SIGN UP) - FIREBASE - KOTLIN APP**. 
 
   * Esta carpeta continene la implementación de las activitys necesarias para loguearse y registrase con email y contraseña en una aplicación
-  Android, conectada a Firebase y Google analytics, y desarrollados en KOTLIN. Está incluido los ficheros de diseño .xml correspondientes a las activitys. 
+  Android, conectada a Firebase y Google analytics, y escritas en KOTLIN. Está incluido los ficheros de diseño .xml correspondientes a las activitys. 
   
 
 Carpeta 3. **APLICACIÓN DE ESCRITORIO - TIENDA**. 
