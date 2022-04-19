@@ -25,14 +25,14 @@ Carpeta 3. **PROCESADOR DE TEXTO - C++**
      
      COMANDOS:
      
-     \<texto> texto arbitrario \</texto> 
+     **_\<texto> texto arbitrario \</texto> 
      
      **DESCRIPCIÓN DE LA ENTRADA:** Dentro de este comando aparecerá un texto arbitrario a ser procesado por el programa. El texto puede incluir palabras, espacios, números, signos de puntuación, etc. Solo se deben analizar las palabras. 
      **FORMATO DE LA SALIDA:** texto anotado
      **DESCRIPCIÓN DEL EFECTO Y SALIDA:** Todo lo que no sean palabras se escribirá igual en la salida. Para cada palabra, si se encuentra en el diccionario, se escribirá la palabra sin más. Si no se encuentra, después de la palabra se escribirá: [error]
      
      
-     \<diccionario> texto arbitrario \</diccionario>
+     **_\<diccionario> texto arbitrario \</diccionario>
      
      **DESCRIPCIÓN DE LA ENTRADA:** Listado de las palabras a incluir en el diccionario de palabras del lenguaje. También pueden aparecer cosas que no sean palabras (como antes), que no deben ser procesadas. Las palabras pueden aparecer repetidas.
      **FORMATO DE LA SALIDA:** [N palabras]
@@ -40,7 +40,7 @@ Carpeta 3. **PROCESADOR DE TEXTO - C++**
      
      
      
-     \<insertar> palabra1 palabra2... \</insertar>
+     **_\<insertar> palabra1 palabra2... \</insertar>
      
      **DESCRIPCIÓN DE LA ENTRADA:** Dentro del comando aparece una lista de palabras a añadir. En este caso no aparecerán números ni signos de puntuación, solo palabras.
      **FORMATO DE LA SALIDA:** [N palabras]
@@ -48,7 +48,7 @@ Carpeta 3. **PROCESADOR DE TEXTO - C++**
      
      
      
-     \<eliminar> palabra1 palabra2... \</eliminar>
+     **_\<eliminar> palabra1 palabra2... \</eliminar>
      
      **DESCRIPCIÓN DE LA ENTRADA:** Dentro del comando aparece una lista de palabras a eliminar. En este caso no aparecerán números ni signos de puntuación, solo palabras.
      **FORMATO DE LA SALIDA:** [N palabras]
