@@ -25,7 +25,7 @@ Carpeta 3. **PROCESADOR DE TEXTO - C++**
      
      COMANDOS:
      
-     **_\<texto> texto arbitrario \</texto> 
+     **_\<texto> texto arbitrario \</texto>_**
      
      **DESCRIPCIÓN DE LA ENTRADA:** Dentro de este comando aparecerá un texto arbitrario a ser procesado por el programa. El texto puede incluir palabras, espacios, números, signos de puntuación, etc. Solo se deben analizar las palabras. 
      **FORMATO DE LA SALIDA:** texto anotado
