@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="136dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/emailTI"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="271dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="162dp"
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/emailET"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:hint="@string/label_email" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/passwordTI"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="271dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/emailTI"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-12dp"
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/passwordET"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:hint="@string/label_password"
+                    android:inputType="textPassword" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/buttonL"
+                android:layout_width="240dp"
+                android:layout_height="55dp"
+                android:layout_below="@+id/checkR"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/blueFB"
+                android:text="@string/label_buttonL"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="18sp"
+                app:cornerRadius="15dp" />
+
+            <Button
+                android:id="@+id/buttonR"
+                android:layout_width="240dp"
+                android:layout_height="55dp"
+                android:layout_below="@+id/textView2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="28dp"
+                android:backgroundTint="@color/greenFB"
+                android:text="@string/label_buttonR"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="18sp"
+                app:cornerRadius="15dp" />
+
+            <CheckBox
+                android:id="@+id/checkR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/passwordTI"
+
+                android:layout_alignStart="@+id/passwordTI"
+                android:layout_marginStart="-7dp"
+                android:layout_marginTop="-20dp"
+                android:buttonTint="#646464"
+                android:text="@string/label_checkR"
+                android:textColor="#646464" />
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/buttonR"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="75dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="@string/label_olvido"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:textColor="#646464"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/panel_espaciador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/buttonR"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="100dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/buttonL"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="28dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="@string/label_O"
+                android:textColor="#646464"
+                android:textSize="13sp" />
+
+            <View
+                android:layout_width="90dp"
+                android:layout_height="1dp"
+                android:layout_alignBottom="@+id/textView2"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_toStartOf="@+id/textView2"
+                android:background="#646464" />
+
+            <View
+                android:layout_width="90dp"
+                android:layout_height="1dp"
+                android:layout_alignBottom="@+id/textView2"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_toEndOf="@+id/textView2"
+                android:background="#646464" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:progressTint="#2962FF"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
