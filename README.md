@@ -17,9 +17,11 @@ Carpeta 2. **AUTENTICACIÓN (SIGN IN/SIGN UP) - FIREBASE - KOTLIN APP**.
 Carpeta 3. **PROCESADOR DE TEXTO - C++**
   * Implementación del motor interno de un editor de textos avanzado. El programa es capaz de procesar un texto en español (o en cualquier otro idioma, dependiendo   del diccionario usado en ese momento), que se leerá siempre desde la entrada estándar. Se hace especial hincapie, en la optimización del tiempo de ejecución y el  uso de memoria. Tras hacer make en el directorio donde el lector guarde los ficheros que se encuentran en el repositorio, podrán acceder al programa e interactuar con el mismo a través de ciertos comandos epecificados a continuación. Los comandos admisibles son los  siguientes:
   
-* 1- Cargar un diccionario: el diccionario contiene un conjunto de palabras que se consideran correctas en el lenguaje dado. Cualquier otra palabra no incluida en el diccionario se considerará como un error ortográfico. 
-* 2- Insertar y eliminar en el diccionario: estos comandos permiten añadir o quitar palabras del diccionario cargado actualmente en el programa.
-* 3- Procesar texto: dado un texto, buscar todas las palabras con errores ortográficos.
+1- Cargar un diccionario: el diccionario contiene un conjunto de palabras que se consideran correctas en el lenguaje dado. Cualquier otra palabra no incluida en el diccionario se considerará como un error ortográfico. 
+
+2- Insertar y eliminar en el diccionario: estos comandos permiten añadir o quitar palabras del diccionario cargado actualmente en el programa.
+
+3- Procesar texto: dado un texto, buscar todas las palabras con errores ortográficos.
      
      COMANDOS:
      
